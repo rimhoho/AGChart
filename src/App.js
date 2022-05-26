@@ -62,24 +62,6 @@ const data = [
       bottom: 40,
       left: 40,
     },
-    // series: [
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q1', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q2', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q3', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q4', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q5', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q6', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q7', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q8', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q9', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q10', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q11', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q12', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q13', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q14', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q15', stacked: true },
-    //   { type: 'column', xKey: 'beverage', yKey: 'Q16', stacked: true }
-    // ],
     series: [
       {
         type: 'column',
@@ -112,17 +94,17 @@ const data = [
         title: {
           text: 'Number of cattle',
         },
-        // label: {
-        //   formatter: (params) => {
-        //     return params.value / 1000 + 'M';
-        //   },
-        // },
+        label: {
+          formatter: (params) => {
+            return params.value / 1000 + 'M';
+          },
+        },
       },
       {
         type: 'number',
         position: 'right',
         keys: ['exportedTonnes'],
-        title: {
+        title: { 
           text: 'Exports (tonnes)',
         },
         label: {
