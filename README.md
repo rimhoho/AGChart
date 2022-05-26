@@ -4,6 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![alt text](https://github.com/rimhoho/AGChart/blob/main/public/chart-sample.png)
 
+## AG Grid data example 
+
+Combination Chart NumData
+![alt text](https://github.com/rimhoho/AGChart/blob/main/public/chart-data-01.png)
+Combination Chart LabelData
+![alt text](https://github.com/rimhoho/AGChart/blob/main/public/chart-data-02.png)
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
