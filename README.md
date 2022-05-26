@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## AG Grid chart example 
 
-https://github.com/rimhoho/AGChart/blob/main/public/chart-sample.png
+![alt text](https://github.com/rimhoho/AGChart/blob/main/public/chart-sample.png)
 
 ## Learn More
 
