@@ -14,11 +14,11 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "ag-charts-community": "~5.3.0",
-    "ag-charts-react": "~5.3.0",
+    "ag-charts-community": "~5.1.0",
+    "ag-charts-react": "~5.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "^3.4.0"
+    "react-scripts": "^5.0.1"
   },
   "resolutions": {
     "react-dev-utils": "10.1.0"
@@ -40,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-dev-utils": "^12.0.1"
   }
 }
